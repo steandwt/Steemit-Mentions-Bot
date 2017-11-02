@@ -25,6 +25,6 @@ for post in stream:
             #we are not tagged so we'll skip this post
             pass
         
-        #Catch any unexpected exceptions
+    #Catch any unexpected exceptions
     except Exception as e:
         print("Error: "+str(e))
